@@ -1,5 +1,5 @@
 /* 
-#5C7285 (Navy blue)
+#5C7285
 #818C78
 #A7B49E
 #E2E0C8 
@@ -18,8 +18,11 @@ body{
 
 /* footer styles */
 
-#footer{
+footer{
+    width: 100%;
     background-color: #A7B49E;
-    text-decoration: none;
 }
+
+
+
 
