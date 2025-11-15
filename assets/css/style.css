@@ -16,9 +16,7 @@ body{
 
 /* Navbar */
 
-nav{
-    background-color: #5C7285;
-}
+
 
 
 /* header section */
@@ -47,18 +45,25 @@ nav{
     border-color: #818C78;
 }
 
+/* about me */
+
+#about-me{
+    color: #E2E0C8;
+}
+
+
+
 /* footer styles */
 
 footer{
     width: 100%;
     background-color: #A7B49E;
-   
 }
 
 #social-network-logo{
     text-align: center;
-    display: flex;
     padding: 20px 0;
+    display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
