@@ -9,9 +9,20 @@
 
 body{
     background-color: #5C7285
-
 }
 
+
+/* header section */
+
+#hero{
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/header-photo.jpg);
+    background-color: #5C7285;
+    background-size: cover;
+    position: relative;
+    background-position: 10% 75%;
+}
 
 
 
