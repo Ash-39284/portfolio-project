@@ -21,8 +21,23 @@ body{
 footer{
     width: 100%;
     background-color: #A7B49E;
+   
+}
+
+#social-network-logo{
+    text-align: center;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-network-logo i{
+    font-size: 160%;
+    padding: 5%;
+    color: #5C7285;
 }
 
 
-
+ 
 
