@@ -51,6 +51,17 @@ body{
     color: #E2E0C8;
 }
 
+/* contact section */
+
+#contact-me, h3{
+    color: #E2E0C8;
+}
+
+#contact-me, ul{
+    list-style-type: none;
+}
+
+
 
 
 /* footer styles */
@@ -58,6 +69,7 @@ body{
 footer{
     width: 100%;
     background-color: #A7B49E;
+    
 }
 
 #social-network-logo{

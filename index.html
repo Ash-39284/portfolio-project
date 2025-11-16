@@ -71,26 +71,60 @@
                 I’m now focused on starting my career as a junior developer, where I can grow, collaborate, and make a meaningful impact within a supportive team.
             </p>
         </div>
-        <div class="row col-6">
-             <h4>Education</h4>
-            <p>Level 5 - Fullstack Development: Present</p>
-
-            <h4>Location</h4>
-            <p>Weston-super-Mare, UK</p>
+        <div id="about-list" class="row col-6">
+            <span>
+            <h3>Education</h3>
+            <p>Level 5 - Fullstack Web Development: present</p>
+            </span>
+            <span>
+            <h3>Location</h3>
+            <p>Somerset, UK</p>
+        </span>
         </div>
     </div>
 </section>
 
+<hr>
 
 <!-- Contact me section -->
-<section id="contact-me">
-    <h3>Get In Touch</h3>
+<section id="contact-me" class="container">
+    <div class="row">
+    <h3 class="text-center">Get In Touch</h3>
+    <div class="row col-6 my-4">
+        <p>I’m always interested in hearing hearing about new projects. Whether you have a question or just want to say hi, feel free to reach out. </p>
 
-
+        <ul class="text-center">
+            <li>Email:</li>
+            <li>ashroberts98@icloud.com</li>
+            <br />
+            <li>Location:</li>
+            <li>Somerset, UK</li>
+        </ul>
+        </div>
+        <form action="form.html" method="get" class="row g-3 col-6">
+            <div>
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div>
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+            <div>
+                <label for="message" class="form-label">Message</label>
+                <br />
+                <textarea  class="form-label" id="message" rows="5"></textarea>
+            </div>
+            <div>
+                <button type="submit" class="btn custom-button">Send</button>
+            </div>
+        </form>
+        </div>
+        </div>
 </section>
 
 <!-- Footer section-->
-<footer>
+<footer class="position fixed text-end">
     <ul id="social-network-logo">
         <li>
             <a href="https://www.linkedin.com/in/ashley-roberts-668226179" target="_blank" rel="noopener" aria-label="Visit my Linkedin page (opens in new tab)">
