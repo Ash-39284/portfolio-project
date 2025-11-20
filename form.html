@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank you</title>
+    <title>Thank You</title>
 
     <!-- bootstrap link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -12,13 +12,12 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-
 <body>
-<!-- navigation bar -->
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- navigation bar section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary shadow-sm">
     <div class="container">
-        <a class="navbar-brand" href="index.html">Ashley Roberts</a>
+        <a class="navbar-brand fw-semibold" href="index.html">Ashley Roberts</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -34,22 +33,40 @@
 
 
 <!-- thank you section -->
-
-<div id="form-text" class="container text-center py-5">
-            <div class="row my-5">
-                <div class="row">
-                    <h1>Thank You!</h1>
-                </div>
-            <div class="row my-4">
-                    <p>Thank you for getting in touch. I will be get back to you as soon as possible. I look foward to talking with you. </p>
+<section id="form-text" class="py-5">
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1 class="mb-4">Thank You!</h1>
+                <p class="lead">
+                    Thank you for getting in touch. I will get back to you as soon as possible.  
+                    I look forward to speaking with you.
+                </p>
             </div>
+        </div>
     </div>
-</div>
+</section>
+
+
+<!-- video section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <video class="w-100 rounded shadow" controls aria-label="Video of a person coding some software at a desk.">
+                    <source src="./assets/images/coding-video.mp4" type="video/mp4">
+                    Your browser does not support this video content.
+                </video>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!-- footer section -->
-<footer class="text-center py-4 fixed-bottom">
-    <ul id="social-network-logo" class="list-unstyled d-flex justify-content-center gap-4 fs-3">
+
+<footer class="text-center py-4 mt-auto">
+    <ul id="social-network-logo" class="list-unstyled d-flex flex-wrap justify-content-center gap-4 fs-3">
         <li><a href="https://www.linkedin.com/in/ashley-roberts-668226179" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
         <li><a href="https://github.com/Ash-39284" target="_blank"><i class="fa-brands fa-github"></i></a></li>
         <li><a href="https://facebook.com/ashley.roberts.92505" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
@@ -57,22 +74,15 @@
     </ul>
 </footer>
 
-<!-- video section -->
 
-<div class="container">
-    <div class="row">
-        <video controls>
-            <source src="./assets/images/coding-video.mp4" type="video/mp4">
-            Your browser does not support this video content.
-        </video>
-    </div>
-</div>
+
 
 
 <!-- bootstrap script -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-<!--fontawesome script -->
+<!-- fontawesome script -->
 <script src="https://kit.fontawesome.com/c818da147c.js"></script>
+
 </body>
 </html>
