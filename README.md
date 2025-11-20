@@ -129,7 +129,7 @@ The design of the portfolio is a clear and professional layout. The follwong des
 
 These wireframes were created using Figma during the scope plane aspect of the planning process. 
 
-- [Desktop and phone screen wireframe](https://www.figma.com/design/6EsHblxY7NKnb1pO6zlTSa/portfolio-wireframe?node-id=0-1&p=f&t=Sad4aLwmFC9qHX10-0)
+- [Desktop, tablet and phone screen wireframes](https://www.figma.com/design/6EsHblxY7NKnb1pO6zlTSa/portfolio-wireframe?node-id=0-1&p=f&t=Sad4aLwmFC9qHX10-0)
 
 # Features
 
@@ -235,7 +235,9 @@ Issue:
 
 Changed to:
 
-`<div id="about-list" class="col-12 col-md-6"> `
+`<div id="about-list" class="col-12 col-md-6">`
+
+This fixed responsiveness issues for smaller screen sizes.
 
 - **Contact section, code fixes:**
 
@@ -256,11 +258,13 @@ Changed to:
 
 `<form class="row g-3 col-12 col-md-6">`
 
+This fixed responsiveness issues for smaller screen sizes.
+
 - **Footer was not responsive on the form.html file. It wasn't staying at the bottom for smaller screens**
 
 Issue: 
 
-The issue was that I didn't set the viewport height to 100vh for the page. As I was using flexbox via bootstrap to layout th page. 
+The issue was that I didn't set the viewport height to 100vh for the page. As I was using flexbox via bootstrap to layout the page. 
 
 I fixed this by adding these classes to the body tag. 
 
