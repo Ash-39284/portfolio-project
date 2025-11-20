@@ -23,6 +23,7 @@ This website not only represents my foundtional skills as an aspiring developer 
 2. [Features](#features)
 
 - [Existing Features](#existing-features)
+
 - [Features to implement](#features-to-implement)
 
 3. [Technoloies used](#technoloies-used)
@@ -100,6 +101,9 @@ The design of the portfolio is a clear and professional layout. The follwong des
 - The primary pastel blue colour was chosen as the main colour because it contrasts well with the green colours used for the other elements. It was chosen to give a calm and friendly appeal to the webpage, whilst also giving the site a professional and sophisticated impression.
 
 - The secondary green colours were chosen as it contrasts well with the blue background. whislt also giving options to use in different shades, for example; witht he buttons in the header section. The hover element takes the button to a darker green to highlight this action. Whilst it doesn't affect the readability of the text. This colour also allowewd for consistency across the project.
+
+![Colour pallett for this project](./assets/images/colour-pallet.png)
+
 
 ## Styling
 
