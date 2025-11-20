@@ -187,7 +187,7 @@ Markdown language was used within my README.md file. It was used to apply conten
 
 When planning the project I was conscious on ensuring that the load times for this project were kept optimal. Especially with the inclusion of the video and the images. I used Lighthous in google dev tools to test this. The results are below. 
 
-[Results of lighthouse test](./assets/images/lighthouse-results.png)
+![Results of lighthouse test](./assets/images/lighthouse-results.png)
 
 ### Navigation
 
