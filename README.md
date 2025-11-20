@@ -11,47 +11,37 @@ This website not only represents my foundtional skills as an aspiring developer 
 
 # Table of contents
 
-1. [UX](#UX)
+1. [UX](#ux)
 
-- [Projects Goals](#Project Goals)
+- [Project Goals](#project-goals)
+- [Employers Goals](#employers-goals)
+- [User Stories](#user-stories)
+- [Developer and Business Goals](#developer-and-business-goals)
+- [Design Choices](#design-choices)
+- [Wireframes](#wireframes)
 
-- [Employers Goals](#Employers Goals)
+2. [Features](#features)
 
-- [User Stories](#User stories)
+- [Existing Features](#existing-features)
+- [Features to implement](#features-to-implement)
 
-- [Developer and Business Goals](#Developer and Business Goals)
+3. [Technoloies used](#technoloies-used)
 
-- [Design Choices](#Design Choices)
+4. [Testing](#testing)
 
-- [Wireframes](#Wireframes)
+5. [Deployment](#deployment)
 
-2. [Features](#Features)
+- [How to run the project locally](#how-to-run-the-project-locally)
 
-- [Existing features](#Existing Features)
+6. [Credits](#credits)
 
-- [Features left to implement](#Features to implement)
+- [Content](#content)
+- [Icons](#icons)
+- [Code](#code)
+- [Images](#images)
+- [Video](#video)
+- [Acknowledgements](#acknowledgements)
 
-3. [Technologies used](#Technoloies used)
-
-4. [Testing](#Testing)
-
-5. [Deployment](#Deployment)
-
-- [How to run the project locally](#How to run the project locally)
-
-6. [Credits](#Credits)
-
-- [Content](#Content)
-
-- [Icons](#Icons)
-
-- [Code](#Code)
-
-- [Images](#Images)
-
-- [Video](#Video)
-
-- [Acknowledgements](#Acknowledgements)
 
 # **UX**
 
