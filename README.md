@@ -1,6 +1,6 @@
 # Portfolio-Project
 
-[Front page of the website](./assets/images/portfolio-intro-pic.png)
+![Front page of the website](./assets/images/portfolio-intro-pic.png)
 
 # Introduction
 
@@ -11,45 +11,47 @@ This website not only represents my foundtional skills as an aspiring developer 
 
 # Table of contents
 
-1. UX
+1. [UX](#UX)
 
-- Projects goals
+- [Projects Goals](#Project Goals)
 
-- Employers goals
+- [Employers Goals](#Employers Goals)
 
-- User stories 
+- [User Stories](#User stories)
 
-- Developer and business goals
+- [Developer and Business Goals](#Developer and Business Goals)
 
-- User stories 
+- [Design Choices](#Design Choices)
 
-- Design choices
+- [Wireframes](#Wireframes)
 
-- Wireframes
+2. [Features](#Features)
 
-2. Features
+- [Existing features](#Existing Features)
 
-- Existing features
+- [Features left to implement](#Features to implement)
 
-- Features left to implement
+3. [Technologies used](#Technoloies used)
 
-3. Technologies used
+4. [Testing](#Testing)
 
-4. Testing
+5. [Deployment](#Deployment)
 
-5. Deployment
+- [How to run the project locally](#How to run the project locally)
 
-- How to run the project locally
+6. [Credits](#Credits)
 
-6. Credits
+- [Content](#Content)
 
-- Content
+- [Icons](#Icons)
 
-- Media
+- [Code](#Code)
 
-- Code
+- [Images](#Images)
 
-- Acknowledgements 
+- [Video](#Video)
+
+- [Acknowledgements](#Acknowledgements)
 
 # **UX**
 
@@ -76,7 +78,7 @@ This project will meet these needs because:
 * The website ensures an easy and streamless way of contacting.
 
 
-## Developer and Business goals 
+## Developer and Business Goals 
 
 - To create a clean and clear design to professionaly represent information. 
 - A professionally presented first example of using HTML, CSS and bootstrap technologies. 
@@ -222,39 +224,39 @@ The issue was I wasn't implementing smaller breakpoints within the code correctl
 
 Issue
 
-'<div class="col-6 my-3">'
+`<div class="col-6 my-3">`
 
 Changed to:
 
-'<div class="col-12 col-md-6 my-3">'
+`<div class="col-12 col-md-6 my-3">`
 
 
 Issue:
 
-'<div id="about-list" class="row col-6">
+`<div id="about-list" class="row col-6">`
 
 Changed to:
 
-'<div id="about-list" class="col-12 col-md-6"> 
+`<div id="about-list" class="col-12 col-md-6"> `
 
 - **Contact section, code fixes:**
 
 Issue:
 
-'<div class="row col-6 my-5">'
+`<div class="row col-6 my-5">`
 
 Changed to 
 
-'<div class="col-12 col-md-6 my-5">'
+`<div class="col-12 col-md-6 my-5">`
 
 
 Issue:
 
-'<form class="row g-3 col-6 col-sm-6 col-md-6 col-lg-6">'
+`<form class="row g-3 col-6 col-sm-6 col-md-6 col-lg-6">`
 
 Changed to:
 
-'<form class="row g-3 col-12 col-md-6">'
+`<form class="row g-3 col-12 col-md-6">`
 
 
 - Textarea message box was the wrong size:
@@ -263,11 +265,11 @@ The issue here was that the message text input area was not displaying as the co
 
 The code causing this issue:
 
-'<textarea class="form-label">'
+`<textarea class="form-label">`
 
 This is the code that fixed this. 
 
-'<textarea class="form-control" rows="5">'
+`<textarea class="form-control" rows="5">`
 
 # Deployment 
 
@@ -307,8 +309,6 @@ All text within the project is sourced by me
 The font style used throughout the project was sourced from [Google Fonts](https://fonts.google.com/specimen/Roboto).
 
 The colour pallett was sourced from [Colour Hunt](https://colorhunt.co/palette/5c7285818c78a7b49ee2e0c8)
-
-### Media
 
 #### Icons
 
