@@ -256,6 +256,15 @@ Changed to:
 
 `<form class="row g-3 col-12 col-md-6">`
 
+- **Footer was not responsive on the form.html file. It wasn't staying at the bottom for smaller screens**
+
+Issue: 
+
+The issue was that I didn't set the viewport height to 100vh for the page. As I was using flexbox via bootstrap to layout th page. 
+
+I fixed this by adding these classes to the body tag. 
+
+`<body class="d-flex flex-column min-vh-100>`
 
 - Textarea message box was the wrong size:
 
@@ -286,8 +295,8 @@ To deploy this project to it's [GitHub repository](https://github.com/Ash-39284/
 
 To clone this project you will need. 
 
-    1. A GitHub account. [Create a GitHub account here.](https://github.com/signup)
-    2. Open Google Chrome browser. 
+1. A GitHub account. [Create a GitHub account here.](https://github.com/signup)
+2. Open Google Chrome browser. 
 
 To work on the project code within a local IDE (e.g. VScode) follow these steps:
 
@@ -302,11 +311,11 @@ To work on the project code within a local IDE (e.g. VScode) follow these steps:
 
 ### Content
 
-All text within the project is sourced by me 
+All text within the project is sourced by me.
 
 The font style used throughout the project was sourced from [Google Fonts](https://fonts.google.com/specimen/Roboto).
 
-The colour pallett was sourced from [Colour Hunt](https://colorhunt.co/palette/5c7285818c78a7b49ee2e0c8)
+The colour pallet was sourced from [Colour Hunt](https://colorhunt.co/palette/5c7285818c78a7b49ee2e0c8)
 
 #### Icons
 
