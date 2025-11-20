@@ -16,7 +16,7 @@ This website not only represents my foundtional skills as an aspiring developer 
 - [Project Goals](#project-goals)
 - [Employers Goals](#employers-goals)
 - [User Stories](#user-stories)
-- [Developer and Business Goals](#developer-and-business-goals)
+- [Developer and Business Goals](#develope-and-business-goals)
 - [Design Choices](#design-choices)
 - [Wireframes](#wireframes)
 
@@ -175,7 +175,11 @@ Markdown language was used within my README.md file. It was used to apply conten
 
 - [HTML code validator](https://validator.w3.org/nu/#textarea)
 
+![HTML code validatory complete checks](./assets/images/html-validator.png)
+
 - [CSS code Validator](https://jigsaw.w3.org/css-validator/validator)
+
+![HTML code validatory complete checks](./assets/images/css-validator.png)
 
     The developer used w3c code to check the validity of the code. 
 
