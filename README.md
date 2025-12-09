@@ -225,7 +225,7 @@ Throughout the development of this project. I ensured that all buttons and navig
 |Send    |form.html    |    Yes  |
 
 
-## Responsiveness and Usability
+## Responsiveness
 
 When developing this project, I was conscious of the design concept on smaller screens (tablet and mobile) and how this would work with the main design for desktop view. 
 
@@ -237,8 +237,22 @@ With the about me section I used some media queries to ensure that all content w
 
 As you can see in the [site screenshots](#site-screenshots) section this site is responsive to larger screens. I have incorporated responsiveness for mobile and tablet screens with use of bootstrap grid, flex and some media queries. I used DevTools in Google Chrome to check this project was responsive for all screen sizes. 
 
-- ![Mobile view]()
-- ![Tablet view]()
+## Mobile View
+![Mobile view home](./assets/images/home-mbl.png)
+![Mobile view about](./assets/images/about-mbl.png)
+![Mobile view contact](./assets/images/contact-mbl.png)
+![Mobile view thank you](./assets/images/thnx-mbl.png)
+
+## Tablet View
+![Tablet view home](./assets/images/tblt-home.png)
+![Tablet view about](./assets/images/tblt-about.png)
+![Tablet view contact](./assets/images/tblt-contact.png)
+![Tablet view thank you](./assets/images/thnx-tblt.png)
+
+## Usability
+
+
+
 
 ### Bugs discovered:
 
