@@ -197,6 +197,13 @@ Markdown language was used within my README.md file. It was used to apply conten
 
     The developer used w3c code to check the validity of the code. 
 
+# Site screenshots
+
+- ![Home page](./assets/images/first-pge-screenshot.png)
+- ![About page](./assets/images/about-screenshot.png)
+- ![Contact page](./assets/images/contact-screenshot.png)
+- ![Thank you page](./assets/images/thankyou-screenshot.png)
+
 ## Site loading times
 
 When planning the project I was conscious on ensuring that the load times for this project were kept optimal. Especially with the inclusion of the video and the images. I used Lighthous in google dev tools to test this. The results are below. 
