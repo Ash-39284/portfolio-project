@@ -212,7 +212,7 @@ When planning the project I was conscious on ensuring that the load times for th
 
 ### Navigation
 
-Throughout the development of this project. I ensured that all buttons and navigation bar elements were linked correctly adn wokring as intended. Below is a table showing all buttons and routes tested and confirmed to be wokring correctly. 
+Throughout the development of this project. I ensured that all buttons and navigation bar elements were linked correctly and working as intended. Below is a table showing all buttons and routes tested and confirmed to be working correctly. 
 
 | Button | Destination | Working |
 |--------|-------------|---------|
@@ -223,6 +223,8 @@ Throughout the development of this project. I ensured that all buttons and navig
 |View my work|About me section|Yes|
 |Get in touch|Contact section|Yes |
 |Send    |form.html    |    Yes  |
+
+
 
 
 ### Bugs discovered:
