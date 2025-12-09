@@ -46,6 +46,15 @@ body{
     color: #E2E0C8;
 }
 
+#about-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+
 /* contact me section */
 
 #contact-me, h3{
