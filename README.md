@@ -225,7 +225,20 @@ Throughout the development of this project. I ensured that all buttons and navig
 |Send    |form.html    |    Yes  |
 
 
+## Responsiveness and Usability
 
+When developing this project, I was conscious of the design concept on smaller screens (tablet and mobile) and how this would work with the main design for desktop view. 
+
+In the design concept of this project I aimed this mainly to be viewed on desktop (larger screens) due to the main target audience that was mentioned within the user stories. Although, it is known that majority of website traffice occurs from mobile devices. I was concsious of the fact that most individuals that fit the criteria of the user story would be viewing this from a desktop or larger screen. 
+
+However, I was able to make the site responsive by using bootstraps grid system. I used this to stack the content so that it was easily and clearly viewable from all devices. 
+
+With the about me section I used some media queries to ensure that all content was visibly stacked on smaller devices to show use of different technologies. 
+
+As you can see in the [site screenshots](#site-screenshots) section this site is responsive to larger screens. I have incorporated responsiveness for mobile and tablet screens with use of bootstrap grid, flex and some media queries. I used DevTools in Google Chrome to check this project was responsive for all screen sizes. 
+
+- ![Mobile view]()
+- ![Tablet view]()
 
 ### Bugs discovered:
 
