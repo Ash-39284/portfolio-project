@@ -52,6 +52,8 @@ body{
     border-radius: 20px;
     object-fit: cover;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+     margin: 0 auto;
+    display: block;
 }
 
 
