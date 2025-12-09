@@ -44,16 +44,33 @@ body{
 
 #about-me{
     color: #E2E0C8;
+    min-height: 700px;
+    padding-top: 160px;
+    padding-bottom: 160px;
 }
 
+
+#about-me h3{
+    padding-bottom: 100px;
+    padding-top: 0px
+}
+
+
+/* About Me image */
 #about-img {
-    width: 100%;
-    max-width: 300px;
+    width: 180px;
+    height: 180px;
     border-radius: 20px;
     object-fit: cover;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-     margin: 0 auto;
-    display: block;
+    border: 3px solid #A7B49E;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+/* Hover animation */
+
+#about-img:hover {
+    transform: scale(1.05) rotate(1deg);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.35);
 }
 
 
@@ -97,3 +114,14 @@ footer{
 }
 
 
+
+
+/* Responsive adjustment for mobile */
+
+@media (max-width: 767px) {
+    #about-img {
+        margin-bottom: 20px;
+        width: 160px;
+        height: 160px;
+    }
+}
