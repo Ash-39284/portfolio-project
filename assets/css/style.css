@@ -23,6 +23,10 @@ body{
     color: #E2E0C8;
 }
 
+#hero-txt{
+    background-color: rgba(92, 114, 133, .9);
+}
+
 .btn{
     background-color:  #A7B49E;
     border-color:  #A7B49E;
