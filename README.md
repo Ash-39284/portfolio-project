@@ -328,6 +328,20 @@ This is the code that fixed this.
 
 `<textarea class="form-control" rows="5">`
 
+- Text not readable on header image. 
+
+This issue here was that the introduction text on the header image was difficul to read in some places due to the colour change in the background image. 
+
+To fix this I added an opaque grey background colour to the text. This now makes it easily readable across all devices. 
+
+I used CSS code to fix this issue:
+
+`#hero-txt{
+    background-color: rgba(92, 114, 133, .9);
+}`
+
+
+
 # Deployment 
 
 This project was built using VScode IDE. It was commited using Git and pushed to GitHub using the terminal to commit and push to the GitHub repository. 
