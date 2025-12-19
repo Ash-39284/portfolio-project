@@ -1,6 +1,6 @@
 # Portfolio-Project
 
-![Front page of the website](./assets/images/portfolio-intro-pic.png)
+![Front page of the website](./assets/images/first-pge-screenshot.png)
 
 # Introduction
 
