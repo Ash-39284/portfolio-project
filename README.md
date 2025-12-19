@@ -249,10 +249,6 @@ As you can see in the [site screenshots](#site-screenshots) section this site is
 ![Tablet view contact](./assets/images/tblt-contact.png)
 ![Tablet view thank you](./assets/images/thnx-tblt.png)
 
-## Usability
-
-
-
 
 ### Bugs discovered:
 
@@ -339,8 +335,6 @@ I used CSS code to fix this issue:
 `#hero-txt{
     background-color: rgba(92, 114, 133, .9);
 }`
-
-
 
 # Deployment 
 

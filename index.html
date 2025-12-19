@@ -15,18 +15,18 @@
 
 <!-- navbar  -->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container">
+    <div class="container" aria-label="navigation bar">
         <a class="navbar-brand" href="index.html">Ashley Roberts</a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="drop down menu">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#about-me">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact-me">Contact</a></li>
+                <li class="nav-item" aria-label="home button"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item" aria-label="about button"><a class="nav-link" href="#about-me">About</a></li>
+                <li class="nav-item" aria-label="contact button"><a class="nav-link" href="#contact-me">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -45,8 +45,8 @@
     </p>
 
     <div class="mt-4">
-        <a href="#about-me" class="btn btn-primary me-2">About Me</a>
-        <a href="#contact-me" class="btn btn-outline-primary">Get In Touch</a>
+        <a href="#about-me" class="btn btn-primary me-2" aria-label="about me button">About Me</a>
+        <a href="#contact-me" class="btn btn-outline-primary" aria-label="get in touch button">Get In Touch</a>
     </div>
 </header>
 
@@ -118,7 +118,7 @@
 
 
         <div class="col-12 col-md-6">
-            <form action="form.html" method="get" class="row g-3">
+            <form action="form.html" method="get" class="row g-3" aria-label="contact form">
                 <div>
                     <label for="name" class="form-label" aria-label="input name">Name</label>
                     <input type="text" id="name" class="form-control" required>
@@ -135,7 +135,7 @@
                 </div>
 
                 <div>
-                    <button type="submit" class="btn btn-primary">Send</button>
+                    <button type="submit" class="btn btn-primary" aria-label="send form">Send</button>
                 </div>
             </form>
         </div>
@@ -146,10 +146,10 @@
 <!-- footer section -->
 <footer class="text-center py-4">
     <ul id="social-network-logo" class="list-unstyled d-flex justify-content-center gap-4 fs-3">
-        <li><a href="https://www.linkedin.com/in/ashley-roberts-668226179" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-        <li><a href="https://github.com/Ash-39284" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-        <li><a href="https://facebook.com/ashley.roberts.92505" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href="https://instagram.com/ash_roberts98" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/ashley-roberts-668226179" target="_blank" aria-label="open linkedin"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/Ash-39284" target="_blank" aria-label="open github"><i class="fa-brands fa-github" ></i></a></li>
+        <li><a href="https://facebook.com/ashley.roberts.92505" target="_blank" aria-label="open facebook"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://instagram.com/ash_roberts98" target="_blank" aria-label="open instagram"><i class="fa-brands fa-instagram"></i></a></li>
     </ul>
 </footer>
 
